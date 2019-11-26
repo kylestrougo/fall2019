@@ -69,14 +69,14 @@ You should submit the notebook through [Canvas](https://tulane.instructure.com/)
 ### Scoring Rubric (50 Points)
 
 * (10 Points) *Professionalism*: You have used both code comments and markdown cells to professionally and clearly document your work including having a clear and clean notebook; linking to resources and documents; and doing so with code that is reasonable and efficient.  Your notebook is correct and contains the required links.
-* 20 Points: Data set(s) are loaded correctly using web scraping or other techniques.  The data is imported and tidy according to the principles discussed in class.  Dtypes are set properly, columns are appropriate, etc.
-* 20 points: Graphs are present in the notebook along with appropriate markdown cells explaining the meaning of the graphs and interpretations.
+* (20 Points) *Data Collection*: Data set(s) are loaded correctly using web scraping or other techniques.  The data is imported and tidy according to the principles discussed in class.  Dtypes are set properly, columns are appropriate, etc.
+* (20 Points) *EDA:* Graphs are present in the notebook along with appropriate markdown cells explaining the meaning of the graphs and interpretations.
 
 ---
 
 ## Deliverable 1: Final Presentation - Dec. 3 & 5, 2019.
 
-You (and your partner) will give a 7-10 minute presentation in class.  In this presentation you are role playing a bit -- your job is to convince the audience that the problem you investigated was interesting and meaningful.  Furthermore, you should give some detail of the analysis and you should make specific policy or outcome recommendations as the conclusion of your analysis.
+You (and your partner) will give a 5 minute presentation in class to your peers.  In this presentation you are role playing a bit -- your job is to convince the audience that the problem you investigated was interesting and meaningful.  An ideal talk will cover every step of the Data Lifecycle that we have discussed in class: (1) where you got your data, (2) how you loaded and preprocessed your data, (3) some exploratory analysis to show important features, (4) a hypothesis about the data and supporting evidence, (5) an important conclusion to draw from your data.
 
 Some resources for giving a good talk:
 1. Simon Peyton Jones, [How To Give a Great Research Talk](https://www.microsoft.com/en-us/research/academic-program/give-great-research-talk/)
@@ -90,11 +90,47 @@ Some resources for giving a good talk:
 * 10 Points: *Science.* Did you clearly explain why you performed the analyses you chose?  Did you adequately defend any assumptions you made?
 * 10 Points: *Peer Evaluation.* Were you present in class both days during presentations, did you provide feedback to the other students on their projects and ask questions.
 
+### Schedule
+
+**Note:** You must upload your slides through [Canvas]() before 10am on the day of your presentation.  Failure to do this will result in a minimum of 10 points lost for *professionalism*.  I will collate the slides on my laptop before class to make sure transitions go smoothly.
+
+| **Tuesday Dec 3rd**  | Group       |           | Link                                                      |
+|:----------------:|:-----------:|:---------:|:---------------------------------------------------------:|
+| 11:00-11:05      | Gartenstein |           | https://jgartens.github.io/                               |
+| 11:05-11:10      | Seidl       |           | https://ilanaseidl.github.io                              |
+| 11:10-11:15      | Tucker      |           | https://briannatucker.github.io/                          |
+| 11:15-11:20      | Catalano    | Mendels   | https://mcatalano26.github.io/Data-Science-Final-Project/ |
+| 11:20-11:25      | Ngo         |           | https://dungngotan99.github.io/                           |
+| 11:25-11:30      | O'Connor    |           | https://mroc170.github.io/                                |
+| 11:30-11:35      | Urowsky     |           | https://github.com/urowskers/tutorial                     |
+| 11:35-11:40      | Campbell    |           | https://christinacampbell98.github.io/                    |
+| 11:40-11:45      | Pratt       |           | https://hpratt1.github.io/                                |
+| 11:45-11:50      | Salter-Cid  |           | https://johnsaltercid.github.io/                          |
+| 11:50-11:55      | Huang       | Stockwell | https://chas3stockwell.github.io/                         |
+| 11:55-12:00      | Todorvic    |           | https://aleksatodorovic.github.io/                        |
+| 12:00-12:05      | Nguyen      | Van Beek  | https://patches12306.github.io/patches12306/              |
+
+
+| **Thursday Dec 5th**  | Group       |           | Link                                                      |
+|:----------------:|:-----------:|:---------:|:---------------------------------------------------------:|
+| 11:00-11:05      | Wang        | Zhuge     | https://zhengwangada.github.io/                           |
+| 11:05-11:10      | Jasica      |           | https://ajasica.github.io/                                |
+| 11:10-11:15      | Korrapati   |           | https://sri-korrapati.github.io/                          |
+| 11:15-11:20      | Mills       |           | https://raemills97.github.io/                             |
+| 11:20-11:25      | Kolbert     |           | https://jkolbert2.github.io/                              |
+| 11:25-11:30      | Wu          | Wu        | https://wuslash0.github.io/                               |
+| 11:30-11:35      | Malith      | Roginsky  | https://tjroginsky.github.io/CMPS-3660-Tutorial/          |
+| 11:35-11:40      | Grimay      |           | https://tgirmay.github.io/                                |
+| 11:40-11:45      | Hotsko      | Biren     | https://jhotsko.github.io/                                |
+| 11:45-11:50      | Chahal      | Gavranic  | https://daveg99.github.io/                                |
+| 11:50-11:55      | Westerfer   | Blavatt   | https://swesterfer.github.io/                             |
+| 11:55-12:00      | Dorsey      |           | https://kdors.github.io/                                  |
+| 12:00-12:05      | Lim         | Nguyen    | https://rjn-2b.github.io/DSLimNguyen/                     |
 ### Submission
 
-You should submit your slides through [Canvas](https://tulane.instructure.com/) as a PDF before the end of the day on which you present. If you do this in a group, both students must submit the notebook through Canvas but it should be the same set of slides.  **If you do not sign in for class these days and engage with the discussion you will not receive points for the Peer Evaluation section.**
+You should submit your slides (PDF, Powerpoint, or Keynote only) through [Canvas](https://tulane.instructure.com/) before 10am on the day of your presentation.  Both students in groups should submit the same set of slides.  **If you do not sign in for class these days and engage with the discussion you will not receive points for the Peer Evaluation section.**
 
-*If you do this in a group, both students must submit the notebook through Canvas but it should be the same notebook.  Both students should have the same data uploaded to the site.*
+*If you do this in a group, both students must submit the set of slides through Canvas.*
 
 ---
 
