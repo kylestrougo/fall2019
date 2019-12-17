@@ -145,14 +145,14 @@ Some example tutorials from a similar class at the University of Maryland are:
 * Analysis of crime data in College Park: https://andresgogo.github.io/
 
 ### Scoring Rubric (75 Points)
-* Motivation: Does the tutorial make the reader believe the topic is important (a) in general and (b) with respect to data science?
-* 10 Points: *Understanding.* After reading the tutorial, does the reader understand the topic?
+* 10 Points: *Motivation*. Does the tutorial make the reader believe the topic is important (a) in general and (b) with respect to data science?
 * 5 Points: *Further Resources.* Does the tutorial “call out” to other resources that would help the reader understand basic concepts, deep dive, related work, etc?
 * 10 Points: *Prose and Professionalism.* Does the prose in the Markdown portion of the .ipynb add to the reader’s understanding of the tutorial?  Are the graphs labeled and clear? Is the writing clear and explained well.
 * 15 Points: *Organization.* Was the notebook clearly organized?  Did you explain where your data came from, why the question was important, and what the outcomes are?  You should address each stage of the DataScience LifeCycle.
-* 20 Points: *Code.* Does the code help solidify understanding, is it well documented, and does it include helpful examples?  Is the code correct?  Did you show that the results of intermediate steps are correct in the tutorial?  Is there enough code to be complex enough to require a tutorial?
+* 15 Points: *Code.* Does the code help solidify understanding, is it well documented, and does it include helpful examples?  Is the code correct?  Did you show that the results of intermediate steps are correct in the tutorial?  Is there enough code to be complex enough to require a tutorial?
 * 10 Points: *Science.* Did you clearly explain why you performed the analyses you chose?  Did you adequately defend any assumptions you made?
 * 5 Points: *Subjective Evaluation.* If somebody linked to this tutorial from Hacker News, would people actually read the whole thing?
+* 5 Points: *Understanding.* After reading the tutorial, does the reader understand the topic?
 
 ### Submission
 
