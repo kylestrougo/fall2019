@@ -1,5 +1,9 @@
 # Project 0: Computing Environment
 
+
+# docker run -it -v /Users/kylestrougo/Desktop/Tulane/Data\ Science/fall2019/project0:/home/jovyan/notebooks --rm -p 8888:8888 jupyter/datascience-notebook
+
+
 Over the course of the semester, you will work with a variety of software packages, including Python, Pandas, Jupyter Notebook, and others. Installing those packages and getting started can often be a hassle because of software dependencies.  However, maintaining your environment is an integral part of your job as a data scientist so you'll need to get used to it!  Luckily Docker makes this really easy and also allows you to share runnable code and increase reproducibility!
 
 For this class we will use Docker, as discussed below. If you have a reasonably modern machine, within last 3-4 years, this should generally work fine, but with older laptops, the performance may not be as good. See below for more details on this.
@@ -23,11 +27,11 @@ You don't need a GitHub account for just cloning the class repository. From the 
 
 `git clone https://github.com/TulaneIntroDataScience/fall2019.git`
 
-You can do `git pull` (from within the `fall2019` directory) to fetch the newly added material. 
+You can do `git pull` (from within the `fall2019` directory) to fetch the newly added material.
 
-*NOTE*: If you are having trouble installing `git`, you can just download the files instead (as a zipfile), although updating may become tedious. 
+*NOTE*: If you are having trouble installing `git`, you can just download the files instead (as a zipfile), although updating may become tedious.
 
-### (More Preferred) Setting up a GitHub Account 
+### (More Preferred) Setting up a GitHub Account
 Repositories hosted on github for free accounts are public; however, you can easily sign up for an educational account which allows you to host 5 private repositories. More details at: https://education.github.com/
 
 - Create an account on Github: https://github.com
@@ -38,17 +42,17 @@ Repositories hosted on github for free accounts are public; however, you can eas
     - Add SSH Key
 - Clone the class repository:
     - In Terminal: `git clone git@github.com:TulaneIntroDataScience/fall2019.git`
-    - The master branch should be checked out in a new directory 
+    - The master branch should be checked out in a new directory
 - Familiarize yourself with the basic git commands
     - At a minimum, you would need to know: `clone`, `add`, `commit`, `push`, `pull`, `status`
     - But you should also be familiar with how to use **branches** (we will discuss these in class).
 - You can't push to the main class repository, but feel free to do *pull requests* on the main class repository if you spot any errors or if you think something could be improved.
 
---- 
+---
 
 ## Docker
 
-Docker is a software technology providing `containers`, that provides an additional layer of abstraction and automation of operating-system-level `virtualization` on Windows and Linux. Here is a nice introductory blog post that describes virtualization and containers: https://medium.freecodecamp.org/a-beginner-friendly-introduction-to-containers-vms-and-docker-79a9e3e119b. 
+Docker is a software technology providing `containers`, that provides an additional layer of abstraction and automation of operating-system-level `virtualization` on Windows and Linux. Here is a nice introductory blog post that describes virtualization and containers: https://medium.freecodecamp.org/a-beginner-friendly-introduction-to-containers-vms-and-docker-79a9e3e119b.
 
 Briefly speaking, a virtual machine (VM) is an emulation of an (`guest`) operating system on a computer (with potentially a different `host` operating system). Linux is the most common guest OS that is used, especially since Apple and Microsoft make it difficult to emulate their OSes. `Containers` look like a VM, but share the host kernel (if possible) to be more efficient, both in terms of the memory used and the slowdown.
 
@@ -71,19 +75,19 @@ Docker is perhaps the most popular container technology at this time, and is wid
 
 ## Python and Jupyter/IPython
 
-We will be using Python for most of the assignments. Python is easy to pick up, and we will also provide skeleton code for most of the assignments. 
+We will be using Python for most of the assignments. Python is easy to pick up, and we will also provide skeleton code for most of the assignments.
 
-IPython is an enhanced command shell for Python, that offers enhanced introspection, rich media, additional shell syntax, tab completion, and rich history. 
+IPython is an enhanced command shell for Python, that offers enhanced introspection, rich media, additional shell syntax, tab completion, and rich history.
 
 **Jupyter/IPython Notebook** started as a web browser-based interface to IPython, and proved especially popular with Data Scientists. A few years ago, the Notebook functionality was forked off as a separate project, called [Jupyter](http://jupyter.org/). Jupyter provides support for many other languages in addition to Python. Several other projects have been started in the recent years, inspired by the idea of Notebooks, e.g., Zeppelin.
 
-Use the command listed above to start a docker container with Jupyter. On your local browser, go to: http://localhost:8888 (which requires you to enter the token). 
+Use the command listed above to start a docker container with Jupyter. On your local browser, go to: http://localhost:8888 (which requires you to enter the token).
 
 * You should see the Notebooks in the `notebooks/` directory. Click to open the "Jupyter Getting Started" Notebook, and follow the instruction therein.
 
 * You should play with the Notebook to try out different Python commands. You can try creating a new notebook.
 
-### Assignment 
+### Assignment
 
 Complete the function in `Project0` Notebook, and upload the `Project0.ipynb` file to Canvas.
 
